@@ -6,7 +6,7 @@
 - bei (*nodes)[i]: 1,2,3
 - bei *nodes[i]: 1,4,7
  
-Du könntest auch i und j nutzen, dann wäre nodes[i][j] = *(*(nodes+i)+j) = (*ptr+i)[j].
+Du könntest auch i und j nutzen, dann wäre nodes[i][j] = *(*(nodes+i)+j) = (*nodes+i)[j].
 
 ## Pointer mit Structs
 

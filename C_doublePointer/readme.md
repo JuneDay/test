@@ -17,3 +17,7 @@ Insgesamt gibt es folgende Äquivalenzen - dabei sind die Klammerungen zu beacht
 * (*(*nodes[i]).children[j]).shortFilename
 * (*(nodes+1))->children[j]->shortFilename
 * (*(*((*(*(nodes+i))).children+j))).shortFilename
+
+## Links
+* http://www.c4learn.com/c-programming/equivalent-pointer-expression/
+* http://www.c4learn.com/c-programming/c-pointer-within-structure/
